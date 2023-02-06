@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+
+	<head>
+		<meta charset='utf-8'>
+		<title>Calendar</title>
+		<link rel="stylesheet" href="styles.css" type="text/css">
+		
+	</head>
+	
+	<body>
+	
+	<!--Strategy-->
+	<!--(1) Create html tags
+		(2) Reference tags
+		(3) Create event listener to call arrow function
+		(4) Choose and set month and day inside arrow function
+		(5) Call drawCalendar inside arrow function with parameters (choice, days)
+		(6) Create drawCalendar outside arrow function with same parameters
+		(7) Call drawCalendar again outsde arrow function this time with arguments ('January', 31) as a default-->
+		
+		<h2>Live output</h2>
+
+		<div>
+		  <label for="calendar">Select month:</label>
+	
+		  <select id="calendar">
+			<option value="January">January</option>
+			<option value="February">February</option>
+			<option value="March">March</option>
+			<option value="April">April</option>
+			<option value="May">May</option>
+			<option value="June">June</option>
+			<option value="July">July</option>
+			<option value="August">August</option>
+			<option value="September">September</option>
+			<option value="October">October</option>
+			<option value="November">November</option>
+			<option value="December">December</option>
+		  </select>
+		</div>
+		
+		<div>
+		  <h1></h1>
+	
+		  <ul></ul>
+		</div>
+	
+		<script src="javascript.js"></script>
+	
+	</body>
+
+
+</html>
